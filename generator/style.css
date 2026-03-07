@@ -1,0 +1,32 @@
+body{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-family:Arial;
+  transition:0.5s;
+}
+
+.container{
+  text-align:center;
+}
+
+button{
+  padding:12px 25px;
+  font-size:18px;
+  border:none;
+  border-radius:8px;
+  background:black;
+  color:white;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#444;
+}
+
+#colorCode{
+  margin-top:20px;
+  font-size:20px;
+  font-weight:bold;
+}
